@@ -1,7 +1,7 @@
 # trivia
 Trivia Challenges for CTF
 
-## Trivia General
+## CS Trivia
 - name: Got pants?
   clue: This software uses Linux/Unix kernel features to isolate process or
 process groups from the rest of the operating system.
@@ -15,11 +15,15 @@ for instructions and data
 - name: Give me my data
   clue: What does DDL stand for?
   answer: data definition language
+  related: sql_fun1, sql_fun2
 
+## Foundations
 
-- image.txt - something about magic numbers and file types
-
-- sql - something point to SQL documentation, DDL
+- name: Wizards be here
+  clue: Unix and Linux use this (instead of an extension) to determine what a
+files format.
+  answer: magic number
+  related: image.txt
 
 - shell, ssh. - environment, collect commands into file
 
